@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sscaipiao.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:theme="@+android:style/Theme.NoTitleBar"
+        android:icon="@drawable/ic_launcher_ss"
+        android:label="@string/app_name" >
+        
+        <activity android:label="@string/app_name" android:name="com.sscaipiao.android.activity.LoadingActivity" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>		
+		
+		<activity android:label="@string/app_name" 
+		    android:name="com.sscaipiao.android.activity.GuideActivity"
+		    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		
+		<activity android:label="@string/app_name" android:name="com.sscaipiao.android.activity.LoginActivity"></activity>		
+		
+    </application>
+
+</manifest>
