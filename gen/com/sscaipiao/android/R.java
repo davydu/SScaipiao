@@ -32,56 +32,61 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int dlt=0x7f020000;
-        public static final int farm=0x7f020001;
-        public static final int fbs=0x7f020002;
-        public static final int guide1=0x7f020003;
-        public static final int guide2=0x7f020004;
-        public static final int guide3=0x7f020005;
-        public static final int guide_button=0x7f020006;
-        public static final int guide_dot_disable=0x7f020007;
-        public static final int guide_dot_enable=0x7f020008;
-        public static final int happy8=0x7f020009;
-        public static final int i115=0x7f02000a;
-        public static final int i155=0x7f02000b;
-        public static final int i3d=0x7f02000c;
-        public static final int i4=0x7f02000d;
-        public static final int i6=0x7f02000e;
-        public static final int i61=0x7f02000f;
-        public static final int i7lc=0x7f020010;
-        public static final int i7xc=0x7f020011;
-        public static final int ic_launcher=0x7f020012;
-        public static final int ic_launcher_ss=0x7f020013;
-        public static final int jc=0x7f020014;
-        public static final int k3=0x7f020015;
-        public static final int loading=0x7f020016;
-        public static final int logo=0x7f020017;
-        public static final int p3=0x7f020018;
-        public static final int p5=0x7f020019;
-        public static final int ren9=0x7f02001a;
-        public static final int sfc=0x7f02001b;
-        public static final int ssc=0x7f02001c;
-        public static final int ssq=0x7f02001d;
-        public static final int u13_normal=0x7f02001e;
-        public static final int u15_normal=0x7f02001f;
-        public static final int u17_normal=0x7f020020;
+        public static final int background_nomal=0x7f020000;
+        public static final int dlt=0x7f020001;
+        public static final int dot_bg=0x7f020002;
+        public static final int farm=0x7f020003;
+        public static final int fbs=0x7f020004;
+        public static final int guide1=0x7f020005;
+        public static final int guide2=0x7f020006;
+        public static final int guide3=0x7f020007;
+        public static final int guide_button=0x7f020008;
+        public static final int guide_dot_disable=0x7f020009;
+        public static final int guide_dot_enable=0x7f02000a;
+        public static final int happy8=0x7f02000b;
+        public static final int i115=0x7f02000c;
+        public static final int i155=0x7f02000d;
+        public static final int i3d=0x7f02000e;
+        public static final int i4=0x7f02000f;
+        public static final int i6=0x7f020010;
+        public static final int i61=0x7f020011;
+        public static final int i7lc=0x7f020012;
+        public static final int i7xc=0x7f020013;
+        public static final int ic_launcher=0x7f020014;
+        public static final int ic_launcher_ss=0x7f020015;
+        public static final int jc=0x7f020016;
+        public static final int k3=0x7f020017;
+        public static final int loading=0x7f020018;
+        public static final int logo=0x7f020019;
+        public static final int p3=0x7f02001a;
+        public static final int p5=0x7f02001b;
+        public static final int paypal=0x7f02001c;
+        public static final int ren9=0x7f02001d;
+        public static final int sfc=0x7f02001e;
+        public static final int sina_weibo=0x7f02001f;
+        public static final int ssc=0x7f020020;
+        public static final int ssq=0x7f020021;
+        public static final int tencent_qq=0x7f020022;
+        public static final int title_bar_back=0x7f020023;
     }
     public static final class id {
-        public static final int action_settings=0x7f090010;
+        public static final int action_settings=0x7f090012;
         public static final int button_guide3=0x7f090000;
-        public static final int button_login=0x7f090009;
-        public static final int imageView1=0x7f090005;
-        public static final int imageView2=0x7f09000d;
-        public static final int imageView3=0x7f09000e;
-        public static final int imageView4=0x7f09000f;
-        public static final int ll=0x7f090002;
+        public static final int button_login=0x7f09000b;
+        public static final int dotGroupButton=0x7f090002;
+        public static final int imageView2=0x7f09000f;
+        public static final int imageView3=0x7f090010;
+        public static final int imageView4=0x7f090011;
         public static final int logindialog=0x7f090004;
         public static final int relativeLayout_loading=0x7f090003;
-        public static final int textView1=0x7f09000b;
-        public static final int textView2=0x7f09000c;
-        public static final int txt_loginerror=0x7f090006;
-        public static final int txt_password=0x7f090008;
-        public static final int txt_toregister=0x7f09000a;
+        public static final int textView1=0x7f09000d;
+        public static final int textView2=0x7f090005;
+        public static final int textView3=0x7f09000e;
+        public static final int textView5=0x7f090006;
+        public static final int textView7=0x7f090008;
+        public static final int txt_loginerror=0x7f09000a;
+        public static final int txt_password=0x7f090009;
+        public static final int txt_toregister=0x7f09000c;
         public static final int txt_username=0x7f090007;
         public static final int viewpager_guide=0x7f090001;
     }
@@ -104,9 +109,17 @@ public final class R {
         public static final int login=0x7f060007;
         public static final int login_as_other_platform=0x7f060008;
         public static final int login_fail=0x7f060004;
+        public static final int login_name=0x7f060009;
+        /**  login page 
+         */
         public static final int mail_or_phone=0x7f060002;
         public static final int password=0x7f060003;
         public static final int regist=0x7f060006;
+        /**  regist page 
+         */
+        public static final int repeat_password=0x7f06000a;
+        public static final int user_protocol=0x7f06000c;
+        public static final int validate_code=0x7f06000b;
     }
     public static final class style {
         /** 
