@@ -68,26 +68,36 @@ public final class R {
         public static final int ssq=0x7f020021;
         public static final int tencent_qq=0x7f020022;
         public static final int title_bar_back=0x7f020023;
+        public static final int validation_code=0x7f020024;
     }
     public static final class id {
-        public static final int action_settings=0x7f090012;
+        public static final int action_settings=0x7f09001b;
         public static final int button_guide3=0x7f090000;
         public static final int button_login=0x7f09000b;
         public static final int dotGroupButton=0x7f090002;
-        public static final int imageView2=0x7f09000f;
-        public static final int imageView3=0x7f090010;
-        public static final int imageView4=0x7f090011;
         public static final int logindialog=0x7f090004;
+        public static final int paypal_login_icon=0x7f090011;
+        public static final int qq_login_icon=0x7f090010;
+        public static final int read_and_confirm=0x7f090019;
+        public static final int regist1_button_validate_code=0x7f090017;
+        public static final int regist1_title=0x7f090013;
+        public static final int regist_button_back=0x7f090012;
+        public static final int regist_button_finish=0x7f090018;
+        public static final int regist_txt_phone=0x7f090014;
+        public static final int regist_txt_protocol=0x7f09001a;
         public static final int relativeLayout_loading=0x7f090003;
-        public static final int textView1=0x7f09000d;
+        public static final int sina_login_icon=0x7f09000f;
         public static final int textView2=0x7f090005;
         public static final int textView3=0x7f09000e;
         public static final int textView5=0x7f090006;
         public static final int textView7=0x7f090008;
+        public static final int txt_forget_password=0x7f09000c;
         public static final int txt_loginerror=0x7f09000a;
         public static final int txt_password=0x7f090009;
-        public static final int txt_toregister=0x7f09000c;
+        public static final int txt_repeat_password=0x7f090015;
+        public static final int txt_toregister=0x7f09000d;
         public static final int txt_username=0x7f090007;
+        public static final int txt_validate_code=0x7f090016;
         public static final int viewpager_guide=0x7f090001;
     }
     public static final class layout {
@@ -105,7 +115,10 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
+        public static final int finish=0x7f06000e;
         public static final int forget_password=0x7f060005;
+        public static final int get_validate_code=0x7f06000d;
+        public static final int i_read_and_confirm=0x7f06000f;
         public static final int login=0x7f060007;
         public static final int login_as_other_platform=0x7f060008;
         public static final int login_fail=0x7f060004;
@@ -114,12 +127,15 @@ public final class R {
          */
         public static final int mail_or_phone=0x7f060002;
         public static final int password=0x7f060003;
+        public static final int phone=0x7f060011;
         public static final int regist=0x7f060006;
         /**  regist page 
          */
-        public static final int repeat_password=0x7f06000a;
-        public static final int user_protocol=0x7f06000c;
-        public static final int validate_code=0x7f06000b;
+        public static final int regist_new_account=0x7f06000a;
+        public static final int repeat_password=0x7f06000b;
+        public static final int telephone_buy_lotus_protocol=0x7f060010;
+        public static final int user_protocol=0x7f060012;
+        public static final int validate_code=0x7f06000c;
     }
     public static final class style {
         /** 

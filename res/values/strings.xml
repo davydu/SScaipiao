@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <string name="app_name">时时彩票</string>
     <string name="action_settings">Settings</string>
-    
-        <!-- login page -->
-    <string name="mail_or_phone">邮箱/手机号</string>
-	<string name="password">密码</string>
-	<string name="login_fail">输入的账号和密码不正确</string>
-	<string name="forget_password">忘记密码？</string>
-	<string name="regist">注册</string>
-	<string name="login">登录</string>
-	<string name="login_as_other_platform">使用合作账户登录：</string>
-	<string name="login_name">用户名</string>
 
-	          <!-- regist page -->
-	<string name="repeat_password">重复密码</string>
-	<string name="validate_code">验证码</string>
+    <!-- login page -->
+    <string name="mail_or_phone">邮箱/手机号</string>
+    <string name="password">密码</string>
+    <string name="login_fail">输入的账号和密码不正确</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="regist">注册</string>
+    <string name="login">登录</string>
+    <string name="login_as_other_platform">使用合作账户登录：</string>
+    <string name="login_name">用户名</string>
+
+    <!-- regist page -->
+    <string name="regist_new_account">注册新账号</string>
+    <string name="repeat_password">重复密码</string>
+    <string name="validate_code">验证码</string>
+    <string name="get_validate_code">获取验证码</string>
+    <string name="finish">完成</string>
+    <string name="i_read_and_confirm">我已阅读并同意</string>
+    <string name="telephone_buy_lotus_protocol">《电话购彩协议》</string>
+ 	<string name="phone">手机号</string>
+ 
 </resources>

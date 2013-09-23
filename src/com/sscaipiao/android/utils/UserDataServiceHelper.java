@@ -15,6 +15,11 @@ import com.sscaipiao.android.model.User;
 
 public class UserDataServiceHelper {
 	
+	public static String getValidateCode(String phone){
+		String uri = Constants.SERVER_URL + "getMobileRand.do?mobile="+phone;
+		return null;
+	}
+	
 	public static User  login(Context context, String account , String password) throws IOException{
 		User user = null;
 		String uri = Constants.SERVER_URL + "login.do";
